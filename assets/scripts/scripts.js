@@ -117,7 +117,7 @@ const img = document.getElementById('about-img');
 
 // Define the default and clicked image sources
 const defaultImage = "assets/img/me_new.png";
-const clickedImage = "me.png";
+const clickedImage = "assets/img/me.png";
 
 // Toggle the image on click
 img.addEventListener('click', () => {
