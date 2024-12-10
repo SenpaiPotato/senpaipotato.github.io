@@ -112,3 +112,14 @@ for (var i = 0; i < btns.length; i++) {
     console.log(current);
   });
 }
+
+const img = document.getElementById('about-img');
+
+// Define the default and clicked image sources
+const defaultImage = "assets/img/me_new.png";
+const clickedImage = "me.png";
+
+// Toggle the image on click
+img.addEventListener('click', () => {
+    img.src = img.src.endsWith(defaultImage) ? clickedImage : defaultImage;
+});
