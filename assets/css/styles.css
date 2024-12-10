@@ -188,6 +188,7 @@ a:hover {
 	overflow-y:hidden;
 	margin: 40px;
 	margin-top: 20px;
+	background-image: "assets/img/me_new.png";
 }
 
 #about-img:hover {
@@ -198,7 +199,8 @@ a:hover {
 	overflow-y:hidden;
 	margin: 40px;
 	margin-top: 20px;
-	content: url('me.png');
+	background-image: "assets/img/me.png";
+
  }
 
 #img-console {
