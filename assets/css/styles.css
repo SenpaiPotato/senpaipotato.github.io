@@ -198,7 +198,7 @@ a:hover {
 	overflow-y:hidden;
 	margin: 40px;
 	margin-top: 20px;
-	background-image: url('me.png');
+	content: url('me.png');
  }
 
 #img-console {
